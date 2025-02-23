@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         //AnimalManager manager1 = new AnimalManager();
         
-        Animal dog1 = new Dog();  //good practise polymorphic dichiaration
-        Animal sparrow1 = new Sparrow();  
-        Animal eagle1 = new Eagle();
-        Animal dolphin1 = new Dolphin();
+        AbstractAnimal dog1 = new Dog();  //good practise polymorphic dichiaration
+        AbstractAnimal sparrow1 = new Sparrow();  
+        AbstractAnimal eagle1 = new Eagle();
+        AbstractAnimal dolphin1 = new Dolphin();
         
         dog1.sleep();  //use mthod of father abstract class
         sparrow1.verse();

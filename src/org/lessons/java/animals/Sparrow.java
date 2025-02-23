@@ -1,6 +1,6 @@
 package org.lessons.java.animals;
 
-public class Sparrow extends Animal implements IFlyable{
+public class Sparrow extends AbstractAnimal implements IFlyable{
     public Sparrow(){
         super();
     }

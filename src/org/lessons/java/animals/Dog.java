@@ -1,6 +1,6 @@
 package org.lessons.java.animals;
 
-public class Dog extends Animal{
+public class Dog extends AbstractAnimal{
     public Dog(){
         super();
     }
